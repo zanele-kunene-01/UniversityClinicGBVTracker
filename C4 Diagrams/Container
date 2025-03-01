@@ -1,1 +1,6 @@
-
+graph TD
+    WebApp -->|Stores Data| Database
+    WebApp -->|Authenticates Users| AuthService
+    WebApp -->|Provides API| APIService
+    Database -->|Stores Cases| CaseTable
+    Database -->|Stores Users| UserTable
