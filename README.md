@@ -4,3 +4,4 @@ The University Clinic GBV Tracker is a secure and confidential platform designed
 
 https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/SPECIFICATION.md
 
+ARCHITECTURE.md
