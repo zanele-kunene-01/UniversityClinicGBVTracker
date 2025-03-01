@@ -1,5 +1,0 @@
-```mermaid
-graph TD
-    Student -->|Reports GBV Case| UniversityClinicSystem
-    UniversityClinicSystem -->|Manages Cases| ClinicStaff
-    UniversityClinicSystem -->|Analyzes Data| DataAnalyst
