@@ -1,1 +1,17 @@
+classDiagram
+    class AuthComponent {
+        +login()
+        +register()
+    }
+    class CaseComponent {
+        +reportCase()
+        +viewCases()
+    }
+    class AnalysisComponent {
+        +generateReport()
+        +viewStatistics()
+    }
+    AuthComponent --> AuthService
+    CaseComponent --> CaseTable
+    AnalysisComponent --> ReportService
 
