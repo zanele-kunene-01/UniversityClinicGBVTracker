@@ -1,1 +1,7 @@
-
+graph TD
+    WebApp -->|Handles Authentication| AuthComponent
+    WebApp -->|Handles Case Reporting| CaseComponent
+    WebApp -->|Handles Data Analysis| AnalysisComponent
+    AuthComponent -->|Validates Credentials| AuthService
+    CaseComponent -->|Saves Cases| CaseTable
+    AnalysisComponent -->|Generates Reports| ReportService
