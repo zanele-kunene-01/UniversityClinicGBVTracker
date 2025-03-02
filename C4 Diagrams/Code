@@ -1,17 +1,35 @@
-classDiagram
-    class AuthComponent {
-        +login()
-        +register()
-    }
-    class CaseComponent {
-        +reportCase()
-        +viewCases()
-    }
-    class AnalysisComponent {
-        +generateReport()
-        +viewStatistics()
-    }
+config:
+  layout: elk
+---
+flowchart TD
+ subgraph WebApp["WebApp"]
+        AuthComponent["AuthComponent"]
+        CaseComponent["CaseComponent"]
+        AnalysisComponent["AnalysisComponent"]
+  end
+ subgraph Database["Database"]
+        CaseTable["CaseTable"]
+        UserTable["UserTable"]
+  end
+ subgraph Services["Services"]
+        AuthService["AuthService"]
+        ReportService["ReportService"]
+  end
+    Student["Student"] -- Reports GBV Case --> UniversityClinicSystem["UniversityClinicSystem"]
+    UniversityClinicSystem -- Manages Cases --> ClinicStaff["ClinicStaff"]
+    UniversityClinicSystem -- Analyzes Data --> DataAnalyst["DataAnalyst"]
+    WebApp -- Stores Data --> Database
+    WebApp -- Authenticates Users --> AuthService
+    WebApp -- Provides API --> APIService["APIService"]
+    Database -- Stores Cases --> CaseTable
+    Database -- Stores Users --> UserTable
+    WebApp -- Handles Authentication --> AuthComponent
+    WebApp -- Handles Case Reporting --> CaseComponent
+    WebApp -- Handles Data Analysis --> AnalysisComponent
+    AuthComponent -- Validates Credentials --> AuthService
+    CaseComponent -- Saves Cases --> CaseTable
+    AnalysisComponent -- Generates Reports --> ReportService
     AuthComponent --> AuthService
     CaseComponent --> CaseTable
     AnalysisComponent --> ReportService
-
+    Services --> n1["Untitled Node"]
