@@ -1,5 +1,3 @@
-Translating requirements into use cases and test cases is a critical step in the software development process. It ensures that the system meets stakeholder needs and performs as expected. However, this process is fraught with challenges that require careful consideration and meticulous planning. Here are some of the key challenges we faced while translating requirements into use cases and tests for the University Clinic GBV Tracker project:
-
 1. Conflicting Stakeholder Priorities
 One of the primary challenges was balancing conflicting priorities among stakeholders. For example, students prioritized confidentiality and ease of reporting, while IT staff focused on system security and uptime. Clinic staff needed efficient case management, whereas university administrators were concerned with compliance and system effectiveness. Balancing these diverse needs required careful analysis and negotiation to ensure that all critical requirements were addressed without compromising any stakeholder's concerns.
 
