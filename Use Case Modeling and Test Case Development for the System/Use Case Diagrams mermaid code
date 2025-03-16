@@ -1,0 +1,24 @@
+flowchart TD
+ subgraph SystemBoundary["System"]
+        ReportGBVCase["Report GBV Case"]
+        ManageGBVCases["Manage GBV Cases"]
+        GenerateReports["Generate Reports"]
+        AnalyzeData["Analyze Data"]
+        AccessCaseDetails["Access Case Details"]
+        ReceiveNotifications["Receive Notifications"]
+        ConfigureSystemSettings["Configure System Settings"]
+        AuthenticateUsers["Authenticate Users"]
+        CoordinateWithSecurity["Coordinate with Security"]
+  end
+    actorStudent["Student"] -- Reports --> ReportGBVCase
+    actorClinicStaff["Clinic Staff"] -- Manages --> ManageGBVCases
+    actorUniversityAdmin["University Admin"] -- Generates --> GenerateReports
+    actorDataAnalyst["Data Analyst"] -- Analyzes --> AnalyzeData
+    actorCounselor["Counselor"] -- Accesses --> AccessCaseDetails
+    actorClinicStaff -- Receives --> ReceiveNotifications
+    actorSecurityPersonnel["Security Personnel"] -- Receives --> ReceiveNotifications
+    actorUniversityAdmin -- Configures --> ConfigureSystemSettings
+    actorITStaff["IT Staff"] -- Authenticates --> AuthenticateUsers
+    actorClinicStaff -- Coordinates --> CoordinateWithSecurity
+    actorSecurityPersonnel -- Coordinates --> CoordinateWithSecurity
+
