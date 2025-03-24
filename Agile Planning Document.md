@@ -44,44 +44,44 @@
 | T006    | Monitor system uptime | Dev Team | 6 | To Do |
 | T007    | Ensure data accuracy | Dev Team | 6 | To Do |
 
-Sprint Goal Statement
+#Sprint Goal Statement
 The goal of this 2-week sprint is to implement the core functionalities of the University Clinic GBV Tracker system, including the ability to report GBV cases, manage and track cases, generate compliance and usage reports, and receive notifications for new cases. This will contribute to the MVP by ensuring that the system can handle the essential tasks required for effective incident management and support.
 
-Reflection: Challenges in Prioritization, Estimation, and Aligning Agile with Stakeholder Needs
+#Reflection: Challenges in Prioritization, Estimation, and Aligning Agile with Stakeholder Needs
 
-Prioritization Challenges:
+**Prioritization Challenges:**
 Resistance: It is difficult to prioritize tasks objectively. Personal biases and preferences may influence decisions, leading to resistance in prioritizing tasks that are less appealing but necessary.
 Difficulty: Prioritizing tasks requires a clear understanding of the project's goals and the impact of each task. Without input from multiple stakeholders, it can be challenging to determine which tasks are most critical.
 
-Estimation Challenges:
+**Estimation Challenges:**
 Resistance: Estimating the effort required for each task can be difficult when you are the only stakeholder. There may be a tendency to underestimate or overestimate the time and resources needed, leading to inaccurate planning.
 Difficulty: Accurate estimation requires experience and knowledge of the project's scope. As the sole stakeholder, it can be challenging to make precise estimates without feedback from others.
 
-Aligning Agile with Stakeholder Needs:
+**Aligning Agile with Stakeholder Needs:**
 Resistance: Aligning Agile practices with stakeholder needs can be challenging when you are the only stakeholder. There may be resistance to adopting certain Agile practices that seem unfamiliar or unnecessary.
 Difficulty: Understanding and addressing stakeholder needs is crucial for successful Agile implementation. As the sole stakeholder, it can be difficult to identify and prioritize these needs without external input.
 
-Balancing Immediate Needs with Long-Term Goals:
+**Balancing Immediate Needs with Long-Term Goals:**
 Resistance: Focusing on immediate needs can lead to neglecting long-term goals. As the sole stakeholder, it can be challenging to balance short-term fixes with sustainable development.
 Difficulty: Developing a roadmap that addresses both immediate needs and long-term goals requires careful planning and foresight. Without input from multiple stakeholders, it can be difficult to achieve this balance.
 
-Managing Expectations:
+**Managing Expectations:**
 Resistance: Setting realistic expectations can be challenging when you are the only stakeholder. There may be a tendency to overpromise and underdeliver, leading to frustration and disappointment.
 Difficulty: Managing expectations requires clear communication and regular updates. As the sole stakeholder, it can be challenging to maintain transparency and keep track of progress.
 
-Communication Gaps:
+**Communication Gaps:**
 Resistance: Effective communication is crucial for successful Agile implementation. As the sole stakeholder, it can be challenging to ensure that all requirements are understood and translated accurately into tasks.
 Difficulty: Establishing clear communication channels and regular updates can be difficult without input from multiple stakeholders. Miscommunication or lack of communication can lead to unclear or contradictory requirements.
 
-Resource Constraints:
+**Resource Constraints:**
 Resistance: Limited resources (time, budget, personnel) can make it difficult to address all stakeholder needs adequately. As the sole stakeholder, it can be challenging to allocate resources effectively.
 Difficulty: Prioritizing requirements based on impact and feasibility requires careful analysis and negotiation. Without input from multiple stakeholders, it can be difficult to make informed decisions.
 
-Varying Levels of Technical Expertise:
+**Varying Levels of Technical Expertise:**
 Resistance: Stakeholders may have different levels of technical expertise, leading to misunderstandings about system capabilities and limitations. As the sole stakeholder, it can be challenging to bridge this knowledge gap.
 Difficulty: Providing clear and accessible documentation and offering training sessions can help address varying levels of technical expertise. Without input from multiple stakeholders, it can be difficult to identify and address these gaps.
 
-Changing Requirements:
+**Changing Requirements:**
 Resistance: Stakeholder needs may evolve over time, requiring adjustments to the system. As the sole stakeholder, it can be challenging to accommodate these changes.
 Difficulty: Adopting Agile methodologies to accommodate changing requirements through iterative development and regular feedback can help address this challenge. Without input from multiple stakeholders, it can be difficult to identify and prioritize these changes.
 
