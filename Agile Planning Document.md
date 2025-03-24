@@ -85,6 +85,6 @@ Difficulty: Providing clear and accessible documentation and offering training s
 Resistance: Stakeholder needs may evolve over time, requiring adjustments to the system. As the sole stakeholder, it can be challenging to accommodate these changes.
 Difficulty: Adopting Agile methodologies to accommodate changing requirements through iterative development and regular feedback can help address this challenge. Without input from multiple stakeholders, it can be difficult to identify and prioritize these changes.
 
-Balancing Security and Usability:
+**Balancing Security and Usability:**
 Resistance: Ensuring robust security measures while maintaining a user-friendly interface can be challenging. As the sole stakeholder, it can be difficult to balance these needs.
 Difficulty: Implementing security features that are unobtrusive and educating users on best practices for secure usage can help address this challenge. Without input from multiple stakeholders, it can be difficult to achieve this balance
