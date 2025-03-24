@@ -44,10 +44,10 @@
 | T006    | Monitor system uptime | Dev Team | 6 | To Do |
 | T007    | Ensure data accuracy | Dev Team | 6 | To Do |
 
-#Sprint Goal Statement
+# Sprint Goal Statement
 The goal of this 2-week sprint is to implement the core functionalities of the University Clinic GBV Tracker system, including the ability to report GBV cases, manage and track cases, generate compliance and usage reports, and receive notifications for new cases. This will contribute to the MVP by ensuring that the system can handle the essential tasks required for effective incident management and support.
 
-#Reflection: Challenges in Prioritization, Estimation, and Aligning Agile with Stakeholder Needs
+# Reflection: Challenges in Prioritization, Estimation, and Aligning Agile with Stakeholder Needs
 
 **Prioritization Challenges:**
 Resistance: It is difficult to prioritize tasks objectively. Personal biases and preferences may influence decisions, leading to resistance in prioritizing tasks that are less appealing but necessary.
