@@ -23,3 +23,5 @@ The Incident object transitions through states like Reported, Investigating, Esc
 
 # Task
 The Task object transitions through states like ToDo, InProgress, Blocked, and Completed. Transitions are triggered by events such as starting and completing tasks. This diagram ensures that tasks are managed effectively, addressing functional requirements related to task management.
+
+https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/tree/main/State%20Transition%20Diagrams
