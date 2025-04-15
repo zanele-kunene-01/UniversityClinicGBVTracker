@@ -21,3 +21,5 @@ The Generate User Report workflow starts with collecting user data, followed by 
 
 **Manage User Account**
 The Manage User Account workflow starts with creating a user account, followed by account activation. If the account is active, access is allowed, and activity is monitored. If not, the account is suspended. This workflow ensures that user accounts are managed effectively, addressing stakeholder concerns related to user authentication and account management.
+
+https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/tree/main/UML%20activity%20diagram
