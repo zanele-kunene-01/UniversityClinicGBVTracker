@@ -5,3 +5,43 @@ The University Clinic GBV Tracker is a secure and confidential platform designed
 https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/SPECIFICATION.md SPECIFICATION.md
 
 https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/ARCHITECTURE.md ARCHITECTURE.md
+
+
+ **Class Implementation**
+
+# Domain Classes – University GBV Tracker
+
+## Key Classes
+- `User`: Represents a student, counselor, or admin
+- `Report`: Represents a GBV case report
+- `Case`: Tracks the investigation and status
+- `Notification`: Manages communication with stakeholders
+
+## Package Structure
+- `/models`: Domain model classes
+- `/repositories`: Data layer abstraction
+- `/services`: Business logic (optional)
+- `/tests`: Test coverage
+
+## Notes
+Each domain class is serializable and contains minimal logic to maintain clean separation from services. IDs are used as primary identifiers in the repository layer.
+
+**Unit Testing – GBV Tracker Repository** 
+
+## Focus
+Unit tests are designed for `InMemory*Repository` classes to ensure reliable CRUD operations without dependency on external databases.
+
+## Tools
+- JUnit 5
+- Mockito (optional for services)
+
+## Tested Methods
+- `save()`: Adds or updates entries
+- `findById()`: Retrieves entries by ID
+- `findAll()`: Lists all entries
+- `delete()`: Deletes an entry
+
+## Running Tests
+
+```bash
+./gradlew test
