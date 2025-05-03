@@ -45,3 +45,24 @@ Unit tests are designed for `InMemory*Repository` classes to ensure reliable CRU
 
 ```bash
 ./gradlew test
+
+**Repository Structure**
+
+ Features Implemented
+
+| Feature | Description | Justification |
+|--------|-------------|---------------|
+| **Repository Interface Abstraction** | Defined generic repository interfaces for key entities (e.g., `ReportRepository`, `UserRepository`). | Promotes **code reusability**, **loose coupling**, and easier unit testing. |
+| **In-Memory Repository Implementations** | Implemented repositories using `HashMap` for runtime data storage. | Enables **quick development** and **testability** without requiring a database. |
+| **Factory Pattern for Storage Selection** | Created `RepositoryFactory` to dynamically instantiate repository types. | **Encapsulates object creation** and allows **extensibility** for future storage backends. |
+| **Stub for Future Storage (Database)** | Included placeholder classes for database repositories (e.g., `DatabaseReportRepository`). | **Future-proofs** the system by planning for external storage integration. |
+| **Unit Testing for Repository Layer** | Created JUnit tests to verify in-memory CRUD operations. | Ensures **reliability**, **test coverage**, and **early detection** of defects. |
+
+---
+
+
+
+
+
+
+
