@@ -1,0 +1,12 @@
+public class DatabaseReportRepository implements ReportRepository {
+    public void save(Report report) {
+        // To be implemented with SQL/JPA
+        throw new UnsupportedOperationException("Database storage not yet implemented.");
+    }
+
+    public Optional<Report> findById(String id) { return Optional.empty(); }
+
+    public List<Report> findAll() { return Collections.emptyList(); }
+
+    public void delete(String id) {}
+}
