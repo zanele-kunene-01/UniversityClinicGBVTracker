@@ -1,0 +1,16 @@
+public class InMemoryReportRepositoryTest {
+
+    @Test
+    public void testSaveAndFindById() {
+        ReportRepository repo = new InMemoryReportRepository();
+        Report report = new Report("r001", "Test case");
+
+        repo.save(report);
+        Optional<Report> found = repo.findById("r001");
+
+        assertTrue(found.isPresent());
+        assertEquals("Test case", found.get().getDescription());
+    }
+
+    // Add delete, findAll, update tests
+}
