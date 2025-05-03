@@ -1,1 +1,20 @@
 
+public class InMemoryReportRepository implements ReportRepository {
+    private final Map<String, Report> storage = new HashMap<>();
+
+    public void save(Report report) {
+        storage.put(report.getId(), report);
+    }
+
+    public Optional<Report> findById(String id) {
+        return Optional.ofNullable(storage.get(id));
+    }
+
+    public List<Report> findAll() {
+        return new ArrayList<>(storage.values());
+    }
+
+    public void delete(String id) {
+        storage.remove(id);
+    }
+}
