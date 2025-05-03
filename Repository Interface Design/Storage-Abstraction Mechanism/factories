@@ -1,0 +1,13 @@
+public class RepositoryFactory {
+    public static ReportRepository getReportRepository(String storageType) {
+        switch (storageType.toUpperCase()) {
+            case "MEMORY":
+                return new InMemoryReportRepository();
+            // Add future options
+            case "DATABASE":
+                return new DatabaseReportRepository(); // Stub
+            default:
+                throw new IllegalArgumentException("Unknown storage type");
+        }
+    }
+}
