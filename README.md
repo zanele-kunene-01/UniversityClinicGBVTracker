@@ -92,14 +92,24 @@ OpenAPI JSON can be exported to `/docs/openapi.json`
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Unit Tests
 Run unit tests:
 ```bash
 pytest tests/test_services.py
 
+##  CI/CD Pipeline
 
+###  How it works
+- Every push and PR triggers a GitHub Actions workflow (`.github/workflows/ci.yml`).
+- It installs dependencies, runs all unit and API tests using `pytest`.
+- If all tests pass and code is merged to `main`, it builds a Python release package (`dist/*.whl`) and uploads it as an artifact.
+
+###  Run Tests Locally
+```bash
+pip install -r requirements.txt
+pytest tests/
 
 
 
