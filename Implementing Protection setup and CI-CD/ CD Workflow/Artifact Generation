@@ -1,0 +1,24 @@
+build-and-package:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Build Python package
+      run: |
+        pip install build
+        python -m build
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: gbvtracker-artifact
+        path: dist/
