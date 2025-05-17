@@ -1,0 +1,41 @@
+# Reflection on Peer-Review & Open-Source Collaboration
+
+## What Feedback I Received
+During the peer-review session three classmates forked the project and opened
+issues. The most common comments were:  
+1. **Setup friction** – one peer struggled because they used pipenv while our
+docs only showed pip.  
+2. **Missing screenshots** – they wished to see example UI calls in README.  
+3. **Clarity of labels** – someone suggested splitting `feature-request` into
+“enhancement” and “epic”.  
+
+## Repository Improvements Made
+I addressed the feedback immediately:
+* Added a Pipenv snippet to **CONTRIBUTING.md** and clarified Python 3.11
+versus 3.10 compatibility.  
+* Committed a GIF demonstrating the Swagger UI and linked it from README.  
+* Created an extra label `enhancement` and re-tagged three larger ideas,
+leaving `feature-request` for small/medium upgrades.  
+
+## Onboarding Challenges
+The biggest challenge was writing documentation that is *just detailed enough*.
+Too terse and newcomers are lost; too verbose and nobody reads. Another
+challenge was ensuring CI time stayed < 2 min even as more tests were added—in
+open-source projects slow pipelines discourage contributions. We solved it by
+caching pip and splitting unit vs integration tests into separate workflow
+jobs.
+
+## Lessons on Open-Source Collaboration
+1. **Transparency wins** – Branch-protection and green CI give instant trust to
+contributors.  
+2. **Labels are invitations** – Clear “good-first-issue” labels almost
+guaranteed someone tried them.  
+3. **Small reviewable PRs beat big drops** – Peers merged tiny docs PRs within
+hours, whereas one large refactor sat unreviewed.  
+4. **Automate everything** – Pre-commit hooks, Ruff, and MyPy prevented 90 %
+of nit-pick comments.  
+5. **Celebrate contributors** – Adding a CONTRIBUTORS section in README
+motivated classmates; two extra stars appeared right after.  
+
+Overall the exercise reinforced how documentation, automation and community
+tone together determine a project’s success more than raw code quality alone.
