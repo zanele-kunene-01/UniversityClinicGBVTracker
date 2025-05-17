@@ -66,11 +66,6 @@ Unit tests are designed for `InMemory*Repository` classes to ensure reliable CRU
 - `findAll()`: Lists all entries
 - `delete()`: Deletes an entry
 
-## Running Tests
-
-```bash
-./gradlew test
-
 **Repository Structure**
 
  ## Features Implemented
@@ -105,6 +100,7 @@ Done: Completed tasks.
 Created Report model using Pydantic for data validation.
 Developed InMemoryReportRepository with full CRUD support.
 Implemented ReportService for business logic:
+
 **Input validation**
 Storage through repository pattern
 Built RESTful API endpoints with FastAPI:
@@ -114,13 +110,16 @@ GET /api/reports/{id} — Retrieve report by ID
 DELETE /api/reports/{id} — Delete a report
 Auto-generated API documentation using Swagger UI (/docs).
 Included OpenAPI export at /docs/openapi.json.
+
 **Tests**
+
 Added unit tests for ReportService (create, retrieve).
 Added integration tests for API endpoints using FastAPI's TestClient.
 Fixed
 Fixed 500 Internal Server Error when deleting a non-existent report.
 Improved error messaging for empty descriptions (400 Bad Request).
 Resolved crash on invalid JSON input in POST /api/reports.
+
 **Documentation**
 Added API documentation via Swagger (OpenAPI 3.0).
 Linked GitHub commits to issues for traceability:
@@ -185,6 +184,11 @@ pytest tests/test_services.py
 ```bash
 pip install -r requirements.txt
 pytest tests/
+
+## Running Tests
+
+```bash
+./gradlew test
 
 
 
