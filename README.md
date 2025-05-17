@@ -8,6 +8,8 @@ https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/SPECIFI
 
 https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/ARCHITECTURE.md ARCHITECTURE.md
 
+https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/SYSTEM_REQUIREMENTS.md
+
 ## Specifications
 
 **Domain**
