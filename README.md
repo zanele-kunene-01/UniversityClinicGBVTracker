@@ -83,6 +83,16 @@ Unit tests are designed for `InMemory*Repository` classes to ensure reliable CRU
 - `findById()`: Retrieves entries by ID
 - `findAll()`: Lists all entries
 - `delete()`: Deletes an entry
+  
+ ## Features Open for Contribution
+| # | Area                 | Description                                  | Label              |
+| - | -------------------- | -------------------------------------------- | ------------------ |
+| 1 | Reports API          | Add pagination & filtering to `/api/reports` | `good-first-issue` |
+| 2 | Export               | CSV / Excel export of case data              | `good-first-issue` |
+| 3 | Caching              | Integrate Redis layer for hot endpoints      | `feature-request`  |
+| 4 | UI                   | Implement dark-mode toggle on dashboard      | `good-first-issue` |
+| 5 | Notifications        | Role-based email templates via Jinja2        | `feature-request`  |
+| 6 | Internationalisation | Add i18n support (EN / Zulu)                 | `feature-request`  |
 
 **Repository Structure**
 
