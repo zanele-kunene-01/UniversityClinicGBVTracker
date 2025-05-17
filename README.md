@@ -10,7 +10,7 @@ https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/ARCHITE
 
 https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/blob/main/SYSTEM_REQUIREMENTS.md
 
-## Specifications
+# Specifications
 
 **Domain**
 University Health Services
@@ -21,16 +21,16 @@ The purpose of this system is to provide a secure and confidential platform for 
 **Individual Scope**
 The system is feasible as it leverages existing technologies for secure data management and reporting. It addresses a critical need for a safe reporting mechanism within the university environment.
 
-##Features
+## Features
 
 Secure user authentication
 Confidential case reporting
 Case management and tracking
 Data analysis and reporting
 
- **Class Implementation**
+ # Class Implementation
 
-# Domain Classes – University GBV Tracker
+## Domain Classes – University GBV Tracker
 
 ## Key Classes
 - `User`: Represents a student, counselor, or admin
@@ -69,7 +69,7 @@ Unit tests are designed for `InMemory*Repository` classes to ensure reliable CRU
 
 **Repository Structure**
 
- Features Implemented
+ ## Features Implemented
 
 | Feature | Description | Justification |
 |--------|-------------|---------------|
