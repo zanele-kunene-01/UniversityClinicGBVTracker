@@ -14,23 +14,26 @@ https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/tree/main/REST%20
 
 https://github.com/zanele-kunene-01/UniversityClinicGBVTracker/tree/main/Repository%20Interface%20Design Interface Design
 
-# Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ```bash
-# clone & enter repo
+**fork & enter repo**
 git clone https://github.com/zanele-kunene-01/UniversityClinicGBVTracker.git
 cd UniversityClinicGBVTracker
 
-# choose one toolchain
+**choose one toolchain**
 pip install -r requirements.txt        # pip
-# OR
+OR
 pipenv install --dev                   # pipenv
 
-# run tests
+**run tests**
 pytest
 
-# start API
+**start API**
 uvicorn main:app --reload
+
+
+
 # Specifications
 
 **Domain**
